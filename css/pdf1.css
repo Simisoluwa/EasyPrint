@@ -1,0 +1,40 @@
+.section{
+    padding: 50px;
+    margin-left: 30px;
+}
+.printer{
+    text-align: center;
+}
+.pdf1,.pdf2{
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+.text{
+    padding: 10px;
+    border-bottom: 2px solid #95a5a6;
+}
+.text1{
+    border-bottom: 1px solid #000;
+}
+.head{
+    background: #95a5a6;
+    padding: 10px;
+}
+.user{
+    display: inline-block;
+    float: left;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 0 auto;
+}
+#user_para{
+    padding: 10px;
+    margin-left: 10px;
+
+}
+h5{
+    text-align: center;
+    padding: 20px;
+}

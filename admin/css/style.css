@@ -1,0 +1,137 @@
+body{
+    background: #343a40;
+}
+.content-wrapper{
+    overflow-x:hidden;
+    background: #fff;
+}
+@media (min-width:992px){
+    .content-wrapper{
+        margin-left: 250px;
+    }
+}
+.page-wrapper{
+    min-height: 570px;
+}
+
+.page-wrapper .container-fluid{
+    margin-bottom: 50px;
+}
+.page-wrapper .container-fluid .top-space{
+    margin-top: 80px !important;
+}
+#mainNav .navbar-collapse{
+   overflow: auto;
+   max-height: 277.5px; 
+}
+#mainNav .navbar-collapse .navbar-nav .nav-item .nav-link{
+    cursor:pointer;
+}
+.mainNav .navbar-collapse .navbar-sidenav .li-second-level{
+    padding-left: 0;
+}
+#mainNav .navbar-collapse .navbar-sidenav .li-second-level > li > a {
+    display: block;
+    padding: 0.5em 0;
+    color: #868e96;
+}
+#mainNav .navbar-collapse .navbar-sidenav .li-second-level > li > a:focus,
+#mainNav .navbar-collapse .navbar-sidenav .li-second-level > li > a:hover{
+    text-decoration: none;
+    color: #abd5bd;
+
+}
+
+#mainNav .navbar-collapse .navbar-sidenav .li-second-level > li > a {
+    padding-left: 1em;
+}
+
+@media (min-width: 992px){
+    #mainNav .navbar-brand{
+        overflow: visible;
+        max-height: none;
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        flex-direction: column;
+        margin-top: 56px;
+        background: #343a40;
+        height: calc(100vh - 112px);
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav > .nav-item {
+        width: 250px;
+        padding: 0;
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav > .nav-item > .nav-link{
+        padding: 1em;
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav li.active a{
+        color: #fff;
+        background-color: #495057;
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav > .nav-item .li-second-level{
+        padding-left: 0;
+        list-style: none;
+        background: #343a40;
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav > .nav-item .li-second-level > li{
+        width: 250px;
+    }
+
+    #mainNav .navbar-collapse .navbar-sidenav > .nav-item .li-second-level > li > a {
+        padding-left: 2em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+
+    }
+}
+
+.row{
+    margin-bottom: 20px;
+}
+@media (max-width: 990px){
+    .row .card{
+        margin-bottom: 20px;
+    }
+}
+
+.bg-primary .row{
+    margin-bottom: -5px;
+}
+
+.bg-success .row{
+    margin-bottom: -5px;
+}
+
+.bg-warning .row{
+    margin-bottom: -5px;
+}
+
+.card-header{
+    font-size: 17px;
+}
+
+.huge{
+    font-size: 30px !important;
+    line-height: normal;
+    color:#fff;
+    margin: 0;
+}
+.fa-5x{
+    font-size: 4em !important;
+    color: #fff;
+}
+
+.text-caption{
+    color: #fff;
+}

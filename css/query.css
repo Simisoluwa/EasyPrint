@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1200px){
+    .image-text-box{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: #fff;
+        
+    }
+    header{
+        height: 60vh;
+    }
+    h1{
+        font-size: 400%;
+        font-weight: 300;
+    }
+    .btn{
+        border: 2px solid #286090;
+        border-radius: 5px;
+        margin-top: 6%;
+        font-size: 190%;
+        
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    body { font-size: 18px; }
+    .image-text-box{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: #fff;
+        
+    }
+   
+    h1{
+        font-size: 250%;
+        font-weight: 300;
+    }
+    .btn{
+        border: 2px solid #286090;
+        border-radius: 5px;
+        margin-top: 10%;
+        font-size: 130%;
+        
+    }
+    .block1,.block2,.block3{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    body{ font-size: 18px; }
+    .image-text-box{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: #fff;
+        
+    }
+    .header{
+        height: 85vh;
+    }
+    h1{
+        font-size: 180%;
+        font-weight: 300;
+    }
+    .btn{
+        border: 2px solid #286090;
+        border-radius: 5px;
+        margin-top: 15%;
+    }
+    h2{
+        width: 100%;
+    }
+    .smile{
+        font-size: 55%;
+    }
+    .main-p{
+        width: 105%;
+        margin: 0 auto;
+        font-size: 95%;
+    }
+    .thumbs{
+        margin: 0 auto;
+    }
+    h5{
+        width: 105%;
+        margin: 0 auto;
+        font-size: 110%;
+    }
+    cite{
+        font-size: 110%;
+    }
+    .mobile,.mail{
+        color: #286090;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    body{ font-size: 20px; }
+    .header{
+        height: 70vh;
+    }
+    .image-text-box{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: #fff;
+        
+    }
+    .btn{
+        border: 2px solid #286090;
+        border-radius: 5px;
+        margin-top: 15%;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 140%;
+        font-weight: 300;
+    }
+    .block1,.block2,.block3{
+        margin: 0 auto;
+    }
+    
+   
+}

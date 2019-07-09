@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../images/printer1.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.image-text-box{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    color: rgba(107, 185, 240, 1);
+}
+.btn{
+    border: 2px solid rgba(107, 185, 240, 1);
+    border-radius: 5px;
+}
+.body-heading{
+    color: #fff;
+}
+.navbar{
+    background-color: #286090;
+}

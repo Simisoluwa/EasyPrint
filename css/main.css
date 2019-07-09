@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../images/printer1.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.image-text-box{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+}
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: #286090;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+a{
+    color: rgba(107, 185, 240, 1);
+}
+.btn{
+    border: 2px solid #286090;
+    border-radius: 5px;
+}
+.body-heading{
+    text-align: center;
+    padding: 5px;
+   
+}
+.navbar{
+    background-color: #286090;
+}
+.paper{
+    width: 80px;
+    height: 40px;
+}
+.image-space{
+    margin-top: 40px;
+    border: 4px solid #286090;
+    border-radius: 50px;
+    padding: 20px;
+}
+.text{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-body{
+    padding: 20px;
+    background: rgb(19, 27, 29);
+}
+.main-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+.section-testimonials{
+
+}
+
+blockquote {
+    padding: 2px;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    font-weight: 300;
+
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite img{
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+.about{
+    padding: 20px;
+    background-color: rgb(19, 27, 29);
+}

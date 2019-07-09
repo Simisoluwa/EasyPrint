@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1023px){
+    body { font-size: 18px; }
+}
+
+@media only screen and (max-width: 767px){
+    body{ font-size: 18px; }
+    .image-text-box{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: #fff;
+        
+    }
+    h1{
+        font-size: 180%;
+        font-weight: 300;
+    }
+    .btn{
+        border: 2px solid #286090;
+        border-radius: 5px;
+        margin-top: 15%;
+    }
+    h2{
+        width: 100%;
+    }
+    .smile{
+        font-size: 55%;
+    }
+    .main-p{
+        width: 105%;
+        margin: 0 auto;
+        font-size: 95%;
+    }
+    .thumbs{
+        margin: 0 auto;
+    }
+    h5{
+        width: 105%;
+        margin: 0 auto;
+        font-size: 110%;
+    }
+    cite{
+        font-size: 110%;
+    }
+    .mobile,.mail{
+        color: #286090;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+}
